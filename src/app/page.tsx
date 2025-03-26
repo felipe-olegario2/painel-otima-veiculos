@@ -1,8 +1,8 @@
-// app/page.tsx
 "use client";
 
 import { useState } from "react";
 import { TextInput, PasswordInput, Button, Card, Title, Text } from "@mantine/core";
+import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 export default function LoginPage() {
@@ -11,12 +11,14 @@ export default function LoginPage() {
   const [senha, setSenha] = useState("");
   const [erro, setErro] = useState("");
 
-  const handleLogin = () => {
-    if (email === "admin@otima.com" && senha === "123456") {
-      // ✅ Aqui você seta o "auth" como true no localStorage
-      localStorage.setItem("auth", "true");
+  const handleLogin = async () => {
+    const res = await signIn("credentials", {
+      redirect: false,
+      email,
+      password: senha,
+    });
 
-      // ✅ Redireciona para o painel
+    if (res?.ok) {
       router.push("/dashboard");
     } else {
       setErro("Credenciais inválidas.");

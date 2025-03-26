@@ -1,4 +1,3 @@
-// components/Sidebar.tsx
 "use client";
 
 import { NavLink, Stack, Text } from "@mantine/core";
@@ -7,17 +6,19 @@ import {
   IconCar,
   IconPlus,
   IconUsers,
+  IconLogout,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { signOut } from "next-auth/react";
 
 export default function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className=" border-r-2 border-gray-100 w-64 min-h-screen px-6 py-8 shadow-md">
+    <aside className="border-r-2 border-gray-100 w-64 min-h-screen px-6 py-8 shadow-md">
       <Text size="xl" fw={700} mb="lg">
-        Painel Otima veiculos
+        Painel Ótima Veículos
       </Text>
 
       <Stack gap="xs">
@@ -41,6 +42,12 @@ export default function Sidebar() {
           href="/contacts"
           leftSection={<IconUsers size={18} />}
           active={pathname === "/contacts"}
+        />
+        <NavLink
+          label="Sair"
+          leftSection={<IconLogout size={18} />}
+          onClick={() => signOut({ callbackUrl: "/" })}
+          color="red"
         />
       </Stack>
     </aside>

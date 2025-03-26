@@ -15,6 +15,7 @@ import {
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { notifications } from "@mantine/notifications";
+import Sidebar from "../../../components/Sidebar";
 
 export default function CarCreatePage() {
   const router = useRouter();
@@ -63,6 +64,9 @@ export default function CarCreatePage() {
   };
 
   return (
+    <div className="flex">
+      <Sidebar/>
+      <div className="flex flex-col w-full p-8">
     <Card shadow="sm" padding="lg" radius="md" withBorder>
       <Title order={3} mb="md">Cadastrar Novo Carro</Title>
       <Stack>
@@ -92,5 +96,7 @@ export default function CarCreatePage() {
         <Button onClick={handleSubmit}>Cadastrar</Button>
       </Stack>
     </Card>
+    </div>
+    </div>
   );
 }
