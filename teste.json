@@ -1,0 +1,420 @@
+[
+    {
+        "data": {
+            "meta": {
+                "mine_count": 0,
+                "assigned_count": 3,
+                "unassigned_count": 1,
+                "all_count": 4
+            },
+            "payload": [
+                {
+                    "meta": {
+                        "sender": {
+                            "additional_attributes": {},
+                            "availability_status": "offline",
+                            "email": null,
+                            "id": 9223,
+                            "name": "felipe",
+                            "phone_number": "+5511913317000",
+                            "identifier": "5511913317000@s.whatsapp.net",
+                            "thumbnail": "",
+                            "custom_attributes": {},
+                            "last_activity_at": 1742492656,
+                            "created_at": 1741804134
+                        },
+                        "channel": "Channel::Api",
+                        "assignee": {
+                            "id": 6,
+                            "account_id": 2,
+                            "availability_status": "online",
+                            "auto_offline": true,
+                            "confirmed": true,
+                            "email": "bruna.castanheira@tecsagroup.com.br",
+                            "available_name": "Bruna",
+                            "name": "Bruna",
+                            "role": "administrator",
+                            "thumbnail": "",
+                            "custom_role_id": null
+                        },
+                        "team": {
+                            "id": 3,
+                            "name": "dietbox - atendimento",
+                            "description": "",
+                            "allow_auto_assign": false,
+                            "account_id": 2,
+                            "is_member": false
+                        },
+                        "hmac_verified": false
+                    },
+                    "id": 11227,
+                    "messages": [
+                        {
+                            "id": 38874,
+                            "content": "*** Contas encontradas: 1 ***\n-----------------------------------------------\nid: 1322507\nnome: FELIPE DA CRUZ OLEGARIO\nemail: felipeolegario50@gmail.com\ntelefone: +5511913317000\ntipo de assinatura: Basic\nfrequencia: \núltimo login: 12/03/2025 18:24:04 +00:00\nPacientes: 0\n",
+                            "account_id": 2,
+                            "inbox_id": 12,
+                            "conversation_id": 11227,
+                            "message_type": 0,
+                            "created_at": 1742492656,
+                            "updated_at": "2025-03-20T17:44:16.505Z",
+                            "private": false,
+                            "status": "sent",
+                            "source_id": null,
+                            "content_type": "text",
+                            "content_attributes": {},
+                            "sender_type": "Contact",
+                            "sender_id": 9223,
+                            "external_source_ids": {},
+                            "additional_attributes": {},
+                            "processed_message_content": "*** Contas encontradas: 1 ***\n-----------------------------------------------\nid: 1322507\nnome: FELIPE DA CRUZ OLEGARIO\nemail: felipeolegario50@gmail.com\ntelefone: +5511913317000\ntipo de assinatura: Basic\nfrequencia: \núltimo login: 12/03/2025 18:24:04 +00:00\nPacientes: 0\n",
+                            "sentiment": {},
+                            "conversation": {
+                                "assignee_id": 6,
+                                "unread_count": 0,
+                                "last_activity_at": 1742492656,
+                                "contact_inbox": {
+                                    "source_id": "dbb98eb4-c22b-45b8-91a6-6605f3bdf1a8"
+                                }
+                            },
+                            "sender": {
+                                "additional_attributes": {},
+                                "custom_attributes": {},
+                                "email": null,
+                                "id": 9223,
+                                "identifier": "5511913317000@s.whatsapp.net",
+                                "name": "felipe",
+                                "phone_number": "+5511913317000",
+                                "thumbnail": "",
+                                "type": "contact"
+                            }
+                        }
+                    ],
+                    "account_id": 2,
+                    "uuid": "e37be426-3f90-4298-9441-4a92f9acc557",
+                    "additional_attributes": {},
+                    "agent_last_seen_at": 1742492656,
+                    "assignee_last_seen_at": 1742490999,
+                    "can_reply": true,
+                    "contact_last_seen_at": 0,
+                    "custom_attributes": {},
+                    "inbox_id": 12,
+                    "labels": [],
+                    "muted": false,
+                    "snoozed_until": null,
+                    "status": "open",
+                    "created_at": 1742483928,
+                    "timestamp": 1742492656,
+                    "first_reply_created_at": 1742483949,
+                    "unread_count": 0,
+                    "last_non_activity_message": {
+                        "id": 38874,
+                        "content": "*** Contas encontradas: 1 ***\n-----------------------------------------------\nid: 1322507\nnome: FELIPE DA CRUZ OLEGARIO\nemail: felipeolegario50@gmail.com\ntelefone: +5511913317000\ntipo de assinatura: Basic\nfrequencia: \núltimo login: 12/03/2025 18:24:04 +00:00\nPacientes: 0\n",
+                        "account_id": 2,
+                        "inbox_id": 12,
+                        "conversation_id": 11227,
+                        "message_type": 0,
+                        "created_at": 1742492656,
+                        "updated_at": "2025-03-20T17:44:16.505Z",
+                        "private": false,
+                        "status": "sent",
+                        "source_id": null,
+                        "content_type": "text",
+                        "content_attributes": {},
+                        "sender_type": "Contact",
+                        "sender_id": 9223,
+                        "external_source_ids": {},
+                        "additional_attributes": {},
+                        "processed_message_content": "*** Contas encontradas: 1 ***\n-----------------------------------------------\nid: 1322507\nnome: FELIPE DA CRUZ OLEGARIO\nemail: felipeolegario50@gmail.com\ntelefone: +5511913317000\ntipo de assinatura: Basic\nfrequencia: \núltimo login: 12/03/2025 18:24:04 +00:00\nPacientes: 0\n",
+                        "sentiment": {},
+                        "conversation": {
+                            "assignee_id": 6,
+                            "unread_count": 0,
+                            "last_activity_at": 1742492656,
+                            "contact_inbox": {
+                                "source_id": "dbb98eb4-c22b-45b8-91a6-6605f3bdf1a8"
+                            }
+                        },
+                        "sender": {
+                            "additional_attributes": {},
+                            "custom_attributes": {},
+                            "email": null,
+                            "id": 9223,
+                            "identifier": "5511913317000@s.whatsapp.net",
+                            "name": "felipe",
+                            "phone_number": "+5511913317000",
+                            "thumbnail": "",
+                            "type": "contact"
+                        }
+                    },
+                    "last_activity_at": 1742492656,
+                    "priority": null,
+                    "waiting_since": 1742492656,
+                    "sla_policy_id": null
+                },
+                {
+                    "meta": {
+                        "sender": {
+                            "additional_attributes": {},
+                            "availability_status": "offline",
+                            "email": null,
+                            "id": 12,
+                            "name": "Leo Brites",
+                            "phone_number": "+555195883394",
+                            "identifier": "555195883394@s.whatsapp.net",
+                            "thumbnail": "",
+                            "custom_attributes": {},
+                            "last_activity_at": 1742492376,
+                            "created_at": 1738689113
+                        },
+                        "channel": "Channel::Api",
+                        "assignee": {
+                            "id": 6,
+                            "account_id": 2,
+                            "availability_status": "online",
+                            "auto_offline": true,
+                            "confirmed": true,
+                            "email": "bruna.castanheira@tecsagroup.com.br",
+                            "available_name": "Bruna",
+                            "name": "Bruna",
+                            "role": "administrator",
+                            "thumbnail": "",
+                            "custom_role_id": null
+                        },
+                        "team": {
+                            "id": 3,
+                            "name": "dietbox - atendimento",
+                            "description": "",
+                            "allow_auto_assign": false,
+                            "account_id": 2,
+                            "is_member": false
+                        },
+                        "hmac_verified": false
+                    },
+                    "id": 11169,
+                    "messages": [
+                        {
+                            "id": 38840,
+                            "content": "Atribuído a Bruna por Felipe",
+                            "account_id": 2,
+                            "inbox_id": 12,
+                            "conversation_id": 11169,
+                            "message_type": 2,
+                            "created_at": 1742492378,
+                            "updated_at": "2025-03-20T17:39:38.663Z",
+                            "private": false,
+                            "status": "sent",
+                            "source_id": null,
+                            "content_type": "text",
+                            "content_attributes": {},
+                            "sender_type": null,
+                            "sender_id": null,
+                            "external_source_ids": {},
+                            "additional_attributes": {},
+                            "processed_message_content": "Atribuído a Bruna por Felipe",
+                            "sentiment": {},
+                            "conversation": {
+                                "assignee_id": 6,
+                                "unread_count": 0,
+                                "last_activity_at": 1742492378,
+                                "contact_inbox": {
+                                    "source_id": "5aff3f8e-6ddf-4dba-b73f-4f914e2324a7"
+                                }
+                            }
+                        }
+                    ],
+                    "account_id": 2,
+                    "uuid": "be0233da-ee8f-4b7b-999f-288189b3e8de",
+                    "additional_attributes": {},
+                    "agent_last_seen_at": 1742492379,
+                    "assignee_last_seen_at": 0,
+                    "can_reply": true,
+                    "contact_last_seen_at": 0,
+                    "custom_attributes": {},
+                    "inbox_id": 12,
+                    "labels": [],
+                    "muted": false,
+                    "snoozed_until": null,
+                    "status": "open",
+                    "created_at": 1742477472,
+                    "timestamp": 1742492378,
+                    "first_reply_created_at": 1742477515,
+                    "unread_count": 0,
+                    "last_non_activity_message": {
+                        "id": 38839,
+                        "content": "Atendimento transferido para um expert",
+                        "account_id": 2,
+                        "inbox_id": 12,
+                        "conversation_id": 11169,
+                        "message_type": 1,
+                        "created_at": 1742492377,
+                        "updated_at": "2025-03-20T17:39:37.886Z",
+                        "private": false,
+                        "status": "sent",
+                        "source_id": "WAID:wamid.HBgMNTU1MTk1ODgzMzk0FQIAERgSRTA5RDkyMTJCMEI4OENBQjQ4AA==",
+                        "content_type": "text",
+                        "content_attributes": {},
+                        "sender_type": "User",
+                        "sender_id": 2,
+                        "external_source_ids": {},
+                        "additional_attributes": {},
+                        "processed_message_content": "Atendimento transferido para um expert",
+                        "sentiment": {},
+                        "conversation": {
+                            "assignee_id": 6,
+                            "unread_count": 0,
+                            "last_activity_at": 1742492378,
+                            "contact_inbox": {
+                                "source_id": "5aff3f8e-6ddf-4dba-b73f-4f914e2324a7"
+                            }
+                        },
+                        "sender": {
+                            "id": 2,
+                            "name": "leonardo brites",
+                            "available_name": "leonardo brites",
+                            "avatar_url": "",
+                            "type": "user",
+                            "availability_status": "offline",
+                            "thumbnail": ""
+                        }
+                    },
+                    "last_activity_at": 1742492378,
+                    "priority": null,
+                    "waiting_since": 0,
+                    "sla_policy_id": null
+                },
+                {
+                    "meta": {
+                        "sender": {
+                            "additional_attributes": {},
+                            "availability_status": "offline",
+                            "email": null,
+                            "id": 610,
+                            "name": "Bruna Castanheira",
+                            "phone_number": "+555180162363",
+                            "identifier": "555180162363@s.whatsapp.net",
+                            "thumbnail": "",
+                            "custom_attributes": {},
+                            "last_activity_at": 1742491565,
+                            "created_at": 1739301122
+                        },
+                        "channel": "Channel::Api",
+                        "assignee": {
+                            "id": 6,
+                            "account_id": 2,
+                            "availability_status": "online",
+                            "auto_offline": true,
+                            "confirmed": true,
+                            "email": "bruna.castanheira@tecsagroup.com.br",
+                            "available_name": "Bruna",
+                            "name": "Bruna",
+                            "role": "administrator",
+                            "thumbnail": "",
+                            "custom_role_id": null
+                        },
+                        "team": {
+                            "id": 3,
+                            "name": "dietbox - atendimento",
+                            "description": "",
+                            "allow_auto_assign": false,
+                            "account_id": 2,
+                            "is_member": false
+                        },
+                        "hmac_verified": false
+                    },
+                    "id": 11185,
+                    "messages": [
+                        {
+                            "id": 38771,
+                            "content": "Atribuído a dietbox - atendimento por Felipe",
+                            "account_id": 2,
+                            "inbox_id": 12,
+                            "conversation_id": 11185,
+                            "message_type": 2,
+                            "created_at": 1742491655,
+                            "updated_at": "2025-03-20T17:27:35.526Z",
+                            "private": false,
+                            "status": "sent",
+                            "source_id": null,
+                            "content_type": "text",
+                            "content_attributes": {},
+                            "sender_type": null,
+                            "sender_id": null,
+                            "external_source_ids": {},
+                            "additional_attributes": {},
+                            "processed_message_content": "Atribuído a dietbox - atendimento por Felipe",
+                            "sentiment": {},
+                            "conversation": {
+                                "assignee_id": 6,
+                                "unread_count": 0,
+                                "last_activity_at": 1742491655,
+                                "contact_inbox": {
+                                    "source_id": "91e797bd-f522-44eb-9095-724fa3b265b4"
+                                }
+                            }
+                        }
+                    ],
+                    "account_id": 2,
+                    "uuid": "07fe6632-d2cc-4566-aac6-417f1d66d7b8",
+                    "additional_attributes": {},
+                    "agent_last_seen_at": 1742491724,
+                    "assignee_last_seen_at": 1742491656,
+                    "can_reply": true,
+                    "contact_last_seen_at": 0,
+                    "custom_attributes": {},
+                    "inbox_id": 12,
+                    "labels": [],
+                    "muted": false,
+                    "snoozed_until": null,
+                    "status": "open",
+                    "created_at": 1742478324,
+                    "timestamp": 1742491655,
+                    "first_reply_created_at": 1742491537,
+                    "unread_count": 0,
+                    "last_non_activity_message": {
+                        "id": 38764,
+                        "content": "Atendimento transferido para um expert",
+                        "account_id": 2,
+                        "inbox_id": 12,
+                        "conversation_id": 11185,
+                        "message_type": 1,
+                        "created_at": 1742491566,
+                        "updated_at": "2025-03-20T17:26:06.457Z",
+                        "private": false,
+                        "status": "sent",
+                        "source_id": "WAID:wamid.HBgMNTU1MTgwMTYyMzYzFQIAERgSQUYxRDc4MTQ4RDNBQjYzREJDAA==",
+                        "content_type": "text",
+                        "content_attributes": {},
+                        "sender_type": "User",
+                        "sender_id": 2,
+                        "external_source_ids": {},
+                        "additional_attributes": {},
+                        "processed_message_content": "Atendimento transferido para um expert",
+                        "sentiment": {},
+                        "conversation": {
+                            "assignee_id": 6,
+                            "unread_count": 0,
+                            "last_activity_at": 1742491655,
+                            "contact_inbox": {
+                                "source_id": "91e797bd-f522-44eb-9095-724fa3b265b4"
+                            }
+                        },
+                        "sender": {
+                            "id": 2,
+                            "name": "leonardo brites",
+                            "available_name": "leonardo brites",
+                            "avatar_url": "",
+                            "type": "user",
+                            "availability_status": "offline",
+                            "thumbnail": ""
+                        }
+                    },
+                    "last_activity_at": 1742491655,
+                    "priority": null,
+                    "waiting_since": 0,
+                    "sla_policy_id": null
+                }
+            ]
+        }
+    }
+]
